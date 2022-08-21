@@ -1,0 +1,104 @@
+@import url("https://use.typekit.net/lxt1diw.css");
+body {
+  font-family: "ibm-plex-sans", sans-serif;
+}
+
+#green-32 {
+  color: #73c700;
+  font-size: 2em;
+}
+
+#green-24 {
+  color: #73c700;
+  font-size: 1.5em;
+}
+
+#coinfy {
+  background: url(./img/Group\ 109008.png);
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+}
+
+#bonus {
+  background: url(./img/Group\ 108865.png);
+}
+
+#bojovat {
+  color: white;
+}
+#bojovat p:nth-child(1) {
+  font-size: 1.1em;
+}
+#bojovat p:nth-child(3) {
+  font-size: 1.5em;
+}
+#bojovat h5 {
+  font-size: 2em;
+}
+#bojovat #bojovat_text {
+  height: 15em;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
+@media (max-width: 768px) {
+  #bojovat {
+    background: url("./img/Group 108877.png");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+  }
+  #bojovat #bojovat_text {
+    height: 40em;
+    gap: 2em;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+  }
+  #dzaba_img {
+    display: flex;
+    justify-content: end;
+    padding-top: 1em;
+  }
+  #card_2 {
+    padding-bottom: 2em;
+  }
+  #btn {
+    background-color: #79d100;
+    border: none;
+  }
+  #section__3 {
+    width: 100%;
+  }
+  #section__3 #section__3_child p {
+    width: 100%;
+    gap: 1em;
+  }
+}
+@media (min-width: 768px) {
+  #bojovat {
+    background: url("./img/Mask Group 265.png");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+  }
+  #bojovat img {
+    width: 100%;
+    border: none;
+  }
+  #two_cards {
+    gap: 8em;
+    justify-content: center;
+  }
+  #btn {
+    background-color: #79d100;
+    border: none;
+    width: 60%;
+  }
+  #section__3 {
+    width: 70%;
+  }
+  #section__3 #section__3_child p {
+    width: 50%;
+    gap: 1em;
+  }
+}/*# sourceMappingURL=style.css.map */
